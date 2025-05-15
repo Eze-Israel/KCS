@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { FaBars, FaTimes, FaPhone } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import Link from 'next/link'
 
 
@@ -34,7 +34,6 @@ const Header:  React.FC = () => {
         {mobile ? <FaBars /> : <FaTimes />}
       </div>
       
-      <p className="phone p-1"><FaPhone className="phone"/> {" "}{" "}+2347061033459</p>
       
             <div>
             <ul className={`${mobile ? 'nav-menu' : 'nav-menu show'}`}>
@@ -46,6 +45,8 @@ const Header:  React.FC = () => {
             <Link href="#Result" onClick={handleMobileChange}> <li className='list-items bg-pink-200 rounded p-1'>Result Checker</li></Link> 
             <Link href="contact" onClick={handleMobileChange}> 
             <li className='list-items bg-pink-200 rounded p-1'>Contact</li></Link> 
+            <Link href="login" onClick={handleMobileChange}> 
+            <li className='list-items bg-pink-200 rounded p-1'>Login</li></Link> 
             </ul>
             </div>
       

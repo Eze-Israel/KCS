@@ -60,7 +60,7 @@ const Footer = () => {
         <div>
           <h3 className='text-lg font-bold mb-4 '> Contact Us </h3>
           <ul className='text-sm'>
-            <li className='mb-2'>Email: Admin@Kcs.com</li>
+            <li className='mb-2'>Email: AdminKcs@gmail.com</li>
             <li className='mb-2'>Address: 24/26 Ifite Ukpo Street, Ago Palace Way Okota</li>
           </ul>
         </div>

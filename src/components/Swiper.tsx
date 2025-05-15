@@ -17,35 +17,35 @@ const slides = [
     id: 1,
     text: "🌱 Welcome to the Future of Agro-Commerce!",
     subText: "Connecting farmers and buyers seamlessly in a digital marketplace.",
-    bg:"/images/Agri2Precision.jpg",
+    bg:"/images/Kcs.jpeg",
     product:"Products"
   },
   {
     id: 2,
     text: "🚜 Empowering Farmers with Technology",
     subText: "Sell fresh produce directly to consumers with secure transactions.",
-    bg: "/images/drone2.jpg",
+    bg: "/images/kcs3.jpeg",
     product:"Products"
   },
   {
     id: 3,
     text: "📦 Efficient Supply Chain Solutions",
     subText: "Track orders, manage deliveries, and optimize your sales effortlessly.",
-    bg: "/images/supply3.jpg",
+    bg: "/images/kcs3.jpeg",
     product:"Products"
   },
   {
     id: 4,
     text: "💳 Secure Payments & Easy Transactions",
     subText: "Seamless payments powered by Paystack for worry-free commerce.",
-    bg: "/images/payment2.jpg",
+    bg: "/images/kcsP2.jpeg",
     product:"Products"
   },
   {
     id: 5,
     text: "🌱🚜📦💳 AGRO CIRCLE",
     subText: "The life cycle of Agriculture and Commerce.",
-    bg: "/images/AgroCircle.jpg",
+    bg: "/images/kcsFront.jpeg",
     product:"Products"
   },
 ];
