@@ -14,36 +14,36 @@ import Image from "next/image";
 const slides = [
   {
     id: 1,
-    text: "🌱 Welcome to the Future of Agro-Commerce!",
-    subText: "Connecting farmers and buyers seamlessly in a digital marketplace.",
+    text: " Welcome to the Official Website of King Chuks Group Of Schools!",
+    subText: "Connecting Parents, Teachers and Sudents.",
     bg:"/images/Kcs.jpg",
     
   },
   {
     id: 2,
-    text: "🚜 Empowering Farmers with Technology",
-    subText: "Sell fresh produce directly to consumers with secure transactions.",
+    text: "🚜 Empowering Students with Technology",
+    subText: "In King Chuks we teach pratical oriented subjects on ICT, coding and Design.",
     bg: "/images/kcs4.jpg",
     
   },
   {
     id: 3,
-    text: "📦 Efficient Supply Chain Solutions",
-    subText: "Track orders, manage deliveries, and optimize your sales effortlessly.",
+    text: "Qualified and Certified Teachers",
+    subText: "In King Chuks Schools we have qualified and certified teachers which proven years of Teaching Experience.",
     bg: "/images/kcs6.jpg",
     
   },
   {
     id: 4,
-    text: "💳 Secure Payments & Easy Transactions",
-    subText: "Seamless payments powered by Paystack for worry-free commerce.",
+    text: "Computer Based Exam",
+    subText: "In King Chuks we train Your children on how to use Computer based test method preparing them for real live exams",
     bg: "/images/kcs5.jpg",
     
   },
   {
     id: 5,
-    text: "🌱🚜📦💳 AGRO CIRCLE",
-    subText: "The life cycle of Agriculture and Commerce.",
+    text: " Competent Administration",
+    subText: "In King Chuks School we have the best and most realiable Administrations",
     bg: "/images/kcs3.jpg",
     
   },

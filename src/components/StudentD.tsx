@@ -27,8 +27,11 @@ const  StudentD = () => {
   return (
 
     <div
-      className="min-h-screen bg-cover bg-center md:flex md:items-center justify-center relative scree"
-      style={{ backgroundImage: "url('/images/design.jpg')" }} 
+      // className="min-h-screen bg-cover bg-center md:flex md:items-center justify-center relative scree"
+      // style={{ backgroundImage: "url('/images/design.jpg')" }} 
+      className="min-h-screen md:bg-[url('/images/design.jpg')] md:bg-cover md:bg-center md:flex md:items-center justify-center relative scree"
+
+      
     >
         <div className="md:w-1/2">
                   <div className="ellipse"><img alt="Ellipse" src="/images/circle33.png"/></div>
@@ -45,11 +48,11 @@ const  StudentD = () => {
            
             <div className='mb-6'>
             <img
-              src="images/NEXT.png" 
+              src="images/logo.jpg" 
               alt="Logo"
-              className="w-[20px] h-[20px] md:w-[50px] md:h-[50px] object-cover m-auto"
+              className="w-[65px] h-[65px] md:w-[100px] md:h-[100px] object-cover m-auto"
             />
-            <h2 className="text-xl md:text-3xl font-bold block md:text-center mb-9 welcome">Next Result System</h2>
+            <h2 className="text-xl md:text-3xl font-bold block md:text-center mb-9 welcome">KCS Result System</h2>
             </div>
 
             <h1 className="text-xl md:text-4xl font-bold block text-center mb-9 welcome">Welcome</h1>
@@ -63,7 +66,7 @@ const  StudentD = () => {
               <input
                 id="username"
                 type="text"
-                className="md:w-1/2 border-b-2 border-gray-400 focus:outline-none focus:border-purple-600"
+                className="w-full md:w-1/2 border-b-2 border-gray-400 focus:outline-none focus:border-purple-600"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 required
@@ -78,7 +81,7 @@ const  StudentD = () => {
               <input
                 id="password"
                  type={showPassword ? 'text' : 'password'}
-                className="md:w-1/2 border-b-2 border-gray-400 focus:outline-none focus:border-purple-600 "
+                className="w-full md:w-1/2 border-b-2 border-gray-400 focus:outline-none focus:border-purple-600 "
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
