@@ -119,6 +119,27 @@ background-position: 0% 50%;
 color: rgb(218, 113, 43);
 }
 
+
+.ellipse {
+  /* height: 437px; */
+  left: 189px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 537px;
+}
+
+.ellipse-2 {
+  /* height: 600px; */
+  left: 140px;
+  position: absolute;
+  top: 30px;
+  width: 540px;
+}
+
+
+
+
  /* TABLET VERSION */
 @media screen and (max-width: 768px){ 
      .preheader{
@@ -137,6 +158,13 @@ color: rgb(218, 113, 43);
         padding: 0 20px;
       }
       
+        .ellipse{
+    left: 12px;
+  }
+    .ellipse-2{
+      left: 5px;
+      top: 45px;
+    }
   .nav-menu {
     /* border: 2px solid green; */
     flex-direction: column;
@@ -193,6 +221,62 @@ color: rgb(218, 113, 43);
   .container{
     padding: 0 20px;
   }
+  .ellipse{
+    width: 230px;
+    top: 125px;
+    left: 10px;
+  }
+  .ellipse-2{
+    width: 200px;
+    top: 150px;
+    left: 5px;
+  }
+  .scree{
+    width: 100%;
+    height:100%;
+    border: 4px solid red;
+  }
+  .right-div{
+    border: 4px solid gray;
+    /* display: flex; */
+    /* justify-content: end; */
+       /* display: block; */
+       /* left: 23px; */
+    
+  }
+  .form{
+    border: 5px solid green;
+    /* display: block; */
+    /* display: flex; */
+    /* justify-content: end; */
+    /* align-items: end; */
+    /* right: 0; */
+
+  }
+  .welcome{
+   display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+  font-weight: bold;
+  margin: auto;
+  
+  
+  }
+  .username{
+    /* display: flex; */
+   /* justify-content: flex-end; */
+   width: 100%;
+   right: 0%;
+   border: 4px solid red;
+   /* padding: 0; */
+  }
+  .password{
+   justify-content: flex-end;
+   /* display: flex; */
+   width: 100%;
+   border: 4px solid red;
+   /* padding: 0; */
+  }
 
   .nav-menu {
       /* border: 2px solid green; */
@@ -221,4 +305,10 @@ color: rgb(218, 113, 43);
   .phone{
       display: none;
   }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
 }

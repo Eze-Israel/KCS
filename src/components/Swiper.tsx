@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Link from "next/link";
 import Image from "next/image";
 
 
@@ -17,36 +16,36 @@ const slides = [
     id: 1,
     text: "🌱 Welcome to the Future of Agro-Commerce!",
     subText: "Connecting farmers and buyers seamlessly in a digital marketplace.",
-    bg:"/images/Kcs.jpeg",
-    product:"Products"
+    bg:"/images/Kcs.jpg",
+    
   },
   {
     id: 2,
     text: "🚜 Empowering Farmers with Technology",
     subText: "Sell fresh produce directly to consumers with secure transactions.",
-    bg: "/images/kcs3.jpeg",
-    product:"Products"
+    bg: "/images/kcs4.jpg",
+    
   },
   {
     id: 3,
     text: "📦 Efficient Supply Chain Solutions",
     subText: "Track orders, manage deliveries, and optimize your sales effortlessly.",
-    bg: "/images/kcs3.jpeg",
-    product:"Products"
+    bg: "/images/kcs6.jpg",
+    
   },
   {
     id: 4,
     text: "💳 Secure Payments & Easy Transactions",
     subText: "Seamless payments powered by Paystack for worry-free commerce.",
-    bg: "/images/kcsP2.jpeg",
-    product:"Products"
+    bg: "/images/kcs5.jpg",
+    
   },
   {
     id: 5,
     text: "🌱🚜📦💳 AGRO CIRCLE",
     subText: "The life cycle of Agriculture and Commerce.",
-    bg: "/images/kcsFront.jpeg",
-    product:"Products"
+    bg: "/images/kcs3.jpg",
+    
   },
 ];
 
@@ -82,10 +81,9 @@ const SwiperComponent = () => {
               priority
               unoptimized  // Turns off Next.js processing
             />
-
           </div>
 
-          <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 p-6 text-center">
+          <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 p-6 text-center">
             
             {/* Animated Text */}
             <motion.h1
@@ -113,7 +111,6 @@ const SwiperComponent = () => {
             >
               {slide.subText}
             </motion.p>
-            <Link href={slide.product}><button className='bg-green-500 p-4 mt-4 text-white hover:bg-red-500 rounded-lg'>View Products</button></Link> 
           </div>
         </SwiperSlide>
       ))}

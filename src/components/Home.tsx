@@ -16,18 +16,6 @@ const Home = () => {
       className='m-auto rounded-full md:w-[150px]'
       />
     </div>
-    <Image 
-    src="/images/kcsP2.jpeg"
-    height={400}
-    width={1000}
-    priority
-    alt='heroPix'
-    className='object-cover mb-3 bg-black w-[100%] h-[50%]'
-
-    
-    />
-
-
         </div>
   )
 }

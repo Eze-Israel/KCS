@@ -41,7 +41,7 @@ const Header:  React.FC = () => {
             <Link href="about" onClick={handleMobileChange}> <li className='list-items bg-pink-200 rounded p-1'>About</li></Link> 
             <Link href="#FAQs" onClick={handleMobileChange}>  <li className='list-items bg-pink-200 rounded p-1'>FAQs</li></Link> 
             <Link href="#News" onClick={handleMobileChange}> <li className='list-items bg-pink-200 rounded p-1'>News</li></Link> 
-            <Link href="#CBT" onClick={handleMobileChange}> <li className='list-items bg-pink-200 rounded p-1'>CBT TEST</li></Link> 
+            <Link href="https://eze-israel.github.io/PGCBT/" onClick={handleMobileChange}> <li className='list-items bg-pink-200 rounded p-1'>CBT TEST</li></Link> 
             <Link href="#Result" onClick={handleMobileChange}> <li className='list-items bg-pink-200 rounded p-1'>Result Checker</li></Link> 
             <Link href="contact" onClick={handleMobileChange}> 
             <li className='list-items bg-pink-200 rounded p-1'>Contact</li></Link> 
